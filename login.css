@@ -1,0 +1,165 @@
+.titre{
+	border-style: inset;
+	border-color:black;
+	border-width:2px;
+	 border-radius: 10px;
+	position:absolute;
+	left:400px;
+	font-size: x-large;
+	width:40%;
+	color:white;
+	background-color:#bfd77b;
+	
+}
+.tout{
+	
+	border-style: inset;
+	border-color:black;
+	border-width:1px;
+	 border-radius: 10px;
+	position:absolute;
+	top:130px;
+	left:400px;
+	font-size: x-large;
+	width:40%;
+	height:60%;
+	color:black;
+	background-color:#b7dfff;
+}
+.user{
+	position:absolute;
+	left:307px;
+	top:42px;
+	background-color:#ffb7c2;
+}
+.connexion{
+	border-style: inset;
+	border-color:black;
+	border-width:2px;
+	 border-radius: 10px;
+	position:absolute;
+	top:350px;
+	left:160px;
+	width:40%;
+	background-color:#bfd77b;
+	color:white;
+	font-size: x-large;
+}
+.pass{
+	position:absolute;
+	left:303px;
+	top:112px;
+	background-color:#ffb7c2;
+}
+.classe{
+	border-radius:10px;
+	position:absolute;
+	left:265px;
+	top:180px;
+	width:40%;
+	font-size: large;
+	background-color:#7f9cd5;
+}
+label{
+	border-style: inset;
+	border-color:black;
+	border-width:1px;
+	background-color:#ffb7c2;
+	height:180px;
+}
+.fondu{
+	position:absolute;
+	left:100px;
+	top:15px;
+}
+.fondc{
+	position:absolute;
+	left:130px;
+	top:185px;
+}
+.fondm{
+	position:absolute;
+	left:70px;
+	top:113px;
+}
+@media (max-width: 640px) {
+	* {
+		box-sizing: border-box;
+	}
+	
+	/* passer body (et tous les éléments de largeur fixe) en largeur automatique */
+
+	body {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+	
+	/* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
+
+	img,
+	table,
+	td,
+	blockquote,
+	code,
+	pre,
+	textarea,
+	input,
+	iframe,
+	object,
+	embed,
+	video {
+		max-width: 100%;
+	}
+	
+	/* conserver le ratio des images */
+
+	img {
+		height: auto;
+	}
+	
+	/* gestion des mots longs */
+
+	textarea,
+	table,
+	td,
+	th,
+	code,
+	pre,
+	samp {
+		-webkit-hyphens: auto; /* césure propre */
+		-moz-hyphens: auto;
+		hyphens: auto;
+		word-wrap: break-word; /* passage à la ligne forcé */
+	}
+	
+	code,
+	pre,
+	samp {
+		white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+	}
+	
+	/* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
+
+	.element1,
+	.element2 {
+		float: none;
+		width: auto;
+	}
+	
+	/* masquer les éléments superflus */
+
+	.hide_mobile {
+		display: none !important;
+	}
+	
+	/* Un message personnalisé */
+
+	body:before {
+		content: "Version mobile du site";
+		display: block;
+		text-align: center;
+		font-style: italic;
+		color: #777;
+	}
+}

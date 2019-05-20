@@ -1,0 +1,28 @@
+h3{
+	border-style: inset;
+	border-color:black;
+	border-width:3px;
+	background-color:red;
+
+	opacity:0.6;
+	text-align:center;
+}
+html{
+
+	/*border-style: inset;
+	border-color:black;
+	border-width:3px;*/
+	background-color:626262;
+	
+}
+a{
+	text-align:center;
+}
+form{
+	margin:center;
+	border-style: inset;
+	border-color:black;
+	border-width:3px;
+	width:40%;
+	background-color:A2A2A2;
+}

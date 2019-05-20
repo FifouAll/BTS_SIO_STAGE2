@@ -1,0 +1,139 @@
+.connexion{
+	position:absolute;
+	top:200px;
+	left:250px;
+}
+.jp2{
+	position:absolute;
+	right:500px;
+	top:0px;
+}
+.burger{
+	position:absolute;
+	right:400px;
+	top:230px;
+	
+}	
+.bouton1{
+	box-shadow:3px 3px 12px #999;
+	border-radius:10px;
+	position:absolute;
+	left:200px;
+	font-size: x-large;
+	width:15%;
+	color:white;
+	background-color:#7cb479;
+}
+.bouton2{
+	box-shadow:3px 3px 12px #999;
+	border-radius:10px;
+	position:absolute;
+	left:600px;
+	font-size: x-large;
+	width:15%;
+	color:white;
+	background-color:#7f9cd5;
+}
+.bouton3{
+	box-shadow:3px 3px 12px #999;
+	border-radius:10px;
+	position:absolute;
+	left:200px;
+	font-size: x-large;
+	width:15%;
+	color:white;
+	background-color:#b26868;
+}
+.test1{
+	font-family: OCR A Std, monospace;
+	color:#797979;
+	margin-left:150px;
+}
+
+.titre{
+	margin-left:100px;
+	font-family: Bradley Hand, cursive;
+	font-size: xx-large;
+	color:red;
+}	
+@media (max-width: 640px) {
+	* {
+		box-sizing: border-box;
+	}
+	
+	/* passer body (et tous les éléments de largeur fixe) en largeur automatique */
+
+	body {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+	
+	/* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
+
+	img,
+	table,
+	td,
+	blockquote,
+	code,
+	pre,
+	textarea,
+	input,
+	iframe,
+	object,
+	embed,
+	video {
+		max-width: 100%;
+	}
+	
+	/* conserver le ratio des images */
+
+	img {
+		height: auto;
+	}
+	
+	/* gestion des mots longs */
+
+	textarea,
+	table,
+	td,
+	th,
+	code,
+	pre,
+	samp {
+		-webkit-hyphens: auto; /* césure propre */
+		-moz-hyphens: auto;
+		hyphens: auto;
+		word-wrap: break-word; /* passage à la ligne forcé */
+	}
+	
+	code,
+	pre,
+	samp {
+		white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+	}
+	
+	/* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
+
+	.element1,
+	.element2 {
+		float: none;
+		width: auto;
+	}
+	
+	/* masquer les éléments superflus */
+
+	.hide_mobile {
+		display: none !important;
+	}
+	
+	/* Un message personnalisé */
+
+	body:before {
+		content: "Version mobile du site";
+		display: block;
+		text-align: center;
+		font-style: italic;
+		color: #777;
+	}
+}
